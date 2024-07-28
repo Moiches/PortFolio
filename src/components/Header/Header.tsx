@@ -2,7 +2,7 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-import Resume from '../../assets/moises_cercas_resume.pdf'
+import Resume from '../../assets/Resume_Moises_Cercas.pdf'
 import letram from "../../assets/letra-m.png";
 
 
@@ -19,7 +19,7 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <div className="hability">
-              <img src={letram} alt="fastapi" />
+              <img src={letram} alt="Moises" />
         </div> 
         <HashLink smooth to="#home" className="logo">
           <span>{" <Mo1chess "}</span>
@@ -43,7 +43,7 @@ export function Header() {
           <NavHashLink smooth to="#education" onClick={closeMenu}>
             Education
           </NavHashLink>
-          <NavHashLink smooth to="#contact" onClick={closeMenu}>
+          <NavHashLink smooth to="#experience" onClick={closeMenu}>
             Experience
           </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>

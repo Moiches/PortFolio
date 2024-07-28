@@ -1,11 +1,8 @@
 import { Container } from './styles'
-// import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
-import telegram from '../../assets/telegram.svg'
 import instagramIcon from '../../assets/instagram.svg'
-// import discordIcon from '../../assets/discord.png'
 
 export function Footer() {
   return (
@@ -44,17 +41,11 @@ export function Footer() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://t.me/CodeVinayak"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={telegram} alt="telegram" />
-        </a>
-        <a
           href="https://www.instagram.com/mo1sescercas/"
           target="_blank"
           rel="noreferrer"
         >
+
           <img src={instagramIcon} alt="Instagram" />
         </a>
       </div>

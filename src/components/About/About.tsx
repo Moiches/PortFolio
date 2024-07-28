@@ -26,11 +26,8 @@ import r from "../../assets/R_logo.svg";
 import git from "../../assets/Git-Icon-1788C.svg";
 import gcloud from "../../assets/google-cloud-1.svg";
 import jupyter from "../../assets/jupyter-svgrepo-com.svg";
+import docker from "../../assets/docker-svgrepo-com.svg";
 import bash from "../../assets/bash-icon-svgrepo-com.svg";
-
-
-
-
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -42,7 +39,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          As an avid tech enthusiast with a flair for creativity and pragmatism, I thrive on tackling complex challenges and delivering effective solutions. My journey in the tech world has been marked by a relentless pursuit of knowledge and a knack for problem-solving. I have a strong interest in Big Data, AI, Containerization and Backend Development.
+          As an avid tech enthusiast with a flair for creativity and pragmatism, I thrive on tackling complex challenges and delivering effective solutions. My journey in the tech world has been marked by a relentless pursuit of knowledge and a knack for problem-solving.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
@@ -207,6 +204,11 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
               <img src={bash} alt="bash" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
+              <img src={docker} alt="docker" />
             </ScrollAnimation>
           </div>
         </div>
