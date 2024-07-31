@@ -65,7 +65,7 @@ export function Experience() {
                 <ScrollAnimation animateIn="fadeInLeft">
                 <div className="experience">
                     <header>
-                    <a href="https://www.upiita.ipn.mx/" target="_blank" rel="noreferrer">
+                    <a href="https://www.juntadeandalucia.es/" target="_blank" rel="noreferrer">
                     <h3>Backend developer, Junta de Andalucia</h3>
                     </a>
                     </header>
