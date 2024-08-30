@@ -15,7 +15,7 @@ export function Experience() {
                     </a>
                     </header>
                     <div className="body">
-                    <h6>January 2022 - July 2022</h6>
+                    <h6>July 2022 - January 2023</h6>
                     <h5> Technical Skills</h5>
                     <p>Assist in developing two types of neural networks developed by postgraduate students: an LSTM and a quantum LSTM. Both were trained with time series data from financial databases, aiming to compare their effectiveness using cost function graphs for both training and test data.</p>
                     <br />
@@ -44,9 +44,18 @@ export function Experience() {
                     </a>
                     </header>
                     <div className="body">
-                    <h6>Feb 2023 - Feb 2024</h6>
-                    <h5> Activities</h5>
-                    <p>Use of internal bank technologies for backend development in transactions, participation in relevant projects such as the safeguarding of documents in SEIRI, which is the bank's document database.
+                    <h6>February 2023 - June 2024</h6>
+                    <h5> Technical Skills</h5>
+                    <p>
+                    Developed custom backend solutions in Java using
+Spring Framework, focusing on relational database
+management in SQL.
+Actively contributed to the ”Youngsters” project by integrating the LinkCard account service into the app, enhancing functionality and user experience.
+Collaborated in a Scrum team for the planning, implementation, and deployment of features, using Jenkins
+for continuous integration and Docker for environment
+management.
+Participated in document safeguarding in SEIRI, optimizing the bank’s document database to ensure integrity
+and availability
                     </p>
                     </div>
                     <footer>
@@ -56,6 +65,8 @@ export function Experience() {
                         <li>APX</li>
                         <li>JBPM</li>
                         <li>SCRUM Developer</li>
+                        <li>Jenkins</li>
+                        <li>Sonar</li>
                     </ul>
                     </footer>
                 </div>
@@ -70,17 +81,21 @@ export function Experience() {
                     </a>
                     </header>
                     <div className="body">
-                    <h6>January 2022 - January 2023 </h6>
-                    <h5> Coursework</h5>
-                    <ol>
-                        <li>RESTFull web services, microservices coding using Spring Boot, JPA, Java EE</li>
-                        <li>Integration of Docker into development workflows, enabling greater portability and consistency across different environments.</li>
-                        <li>Use of Angular 17 and React</li>
-                        <li>Database usage in Oracle/Mysql/Potsgress</li>
-                        <li>Devops tools such as Jenkis, Sonar</li>
-                        <li>Unit testing</li>
-                        <li>Code versioning through GitLab and Github</li>
-                    </ol>
+                    <h6>January 2021 - May 2022 </h6>
+                    <h5>Technical Skills</h5>
+                    <p>
+                    Led the development of microservices and web services
+(RESTful/SOAP) using Spring Framework, enabling the
+modularization and scalability of government applications.
+Maintained and optimized web pages to ensure high
+performance and user satisfaction, implementing agile
+development practices.
+Implemented continuous integration solutions with
+Jenkins and code quality control with SonarQube.
+Deployed applications using Docker, ensuring consistent and efficient environments.
+Managed databases in MySQL, Oracle, PostgreSQL, and
+MongoDB, ensuring data integrity and availability
+                    </p>
                     </div> 
                     <footer>
                     <ul className="tech-list">

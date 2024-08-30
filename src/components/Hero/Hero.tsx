@@ -21,10 +21,10 @@ export function Hero() {
           <h1>Moisés Cercas</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Data Scientist</h3>
+          <h3>Software Engineer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">2 Years of Experience</p>
+          <p className="small-resume">4+ years of experience coding in JAVA/Python</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
