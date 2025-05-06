@@ -33,7 +33,7 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          // href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          
           href="https://wa.me/+525618616455?text=Hola!%20%F0%9F%98%8E"
           target="_blank"
           rel="noreferrer"
